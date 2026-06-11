@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "98701.aternos.me",
+    "ip": "cheagle.aternos.host",
     "port": 64120,
     "version": "1.21.1",
     "try-creative": false
