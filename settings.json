@@ -19,8 +19,8 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled":false,
-      "password": ""
+      "enabled": false,
+      "password": "nopasswordToday"
     },
     "anti-afk": {
       "enabled": true,
@@ -29,41 +29,41 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 1200000,
       "messages": [
         "J'aime Parzival, il est mon maître"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 10000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 4000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
