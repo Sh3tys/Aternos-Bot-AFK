@@ -1,85 +1,170 @@
 {
+
   "name": "AFK Bot",
+
   "bot-account": {
+
     "username": "AFK-Bot",
+
     "password": "",
+
     "type": "offline"
+
   },
+
   "server": {
-    "ip": "cheagle.aternos.host",
+
+    "ip": "98701.aternos.me",
+
     "port": 64120,
-    "version": "1.21.1",
+
+    "version": "1.21.11",
+
     "try-creative": false
+
   },
+
   "position": {
+
     "enabled": true,
+
     "x": 0,
+
     "y": 100,
+
     "z": 0
+
   },
+
   "utils": {
+
     "auto-auth": {
-      "enabled": false,
+
+      "enabled": true,
+
       "password": "nopasswordToday"
+
     },
+
     "anti-afk": {
+
       "enabled": true,
+
       "sneak": true
+
     },
+
     "chat-messages": {
+
       "enabled": true,
+
       "repeat": true,
-      "repeat-delay": 1200000,
+
+      "repeat-delay": 120,
+
       "messages": [
+
         "J'aime Parzival, il est mon maître"
+
       ]
+
     },
-    "chat-log": false,
+
+    "chat-log": true,
+
     "auto-reconnect": true,
+
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 10000
+
+    "max-reconnect-delay": 120000
+
   },
+
   "movement": {
+
     "enabled": true,
+
     "circle-walk": {
-      "enabled": false,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
+
       "enabled": true,
-      "interval": 4000
+
+      "radius": 4,
+
+      "speed": 3000
+
     },
+
+    "look-around": {
+
+      "enabled": true,
+
+      "interval": 5000
+
+    },
+
     "random-jump": {
-      "enabled": false,
+
+      "enabled": true,
+
       "interval": 10000
+
     }
+
   },
+
   "modules": {
+
     "avoidMobs": true,
-    "combat": false,
+
+    "combat": true,
+
     "beds": false,
+
     "chat": true,
+
     "console-commands": true
+
   },
+
   "combat": {
-    "attack-mobs": false,
+
+    "attack-mobs": true,
+
     "auto-eat": true
+
   },
+
   "beds": {
+
     "pick-up-day": false,
+
     "place-night": false
+
   },
+
   "discord": {
+
     "enabled": false,
+
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+
     "events": {
+
       "connect": true,
+
       "disconnect": true,
+
       "chat": false
+
     }
+
   },
+
   "chat": {
+
     "respond": true
+
   }
-}
+
+} 
+
